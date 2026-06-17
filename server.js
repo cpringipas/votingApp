@@ -257,11 +257,54 @@ app.get('/api/results', (req, res) => {
     };
   });
 
+  // Extract voters list
+  const votersList = Object.keys(allVotes).map(voterId => {
+    const student = students.find(s => s.id === voterId);
+    return {
+      id: voterId,
+      fullName: student ? student.fullName : 'Άγνωστος/η',
+      class: student ? student.class : '-'
+    };
+  }).sort((a, b) => a.fullName.localeCompare(b.fullName, 'el'));
+
   res.json({
     totalVoters: totalVotersCount,
     totalStudents: students.length,
-    results: results
+    results: results,
+    voters: votersList
   });
+});
+
+// Reset all votes (Admin)
+app.post('/api/admin/reset-all', (req, res) => {
+  const { password } = req.body;
+  if (password !== 'Papaioannou1978') {
+    return res.status(401).json({ error: 'Μη εξουσιοδοτημένη πρόσβαση.' });
+  }
+
+  saveVotes({});
+  res.json({ success: true, message: 'Επιτυχής επαναφορά! Όλες οι ψήφοι διαγράφηκαν.' });
+});
+
+// Delete specific student's votes (Admin)
+app.post('/api/admin/delete-vote', (req, res) => {
+  const { password, targetStudentId } = req.body;
+  if (password !== 'Papaioannou1978') {
+    return res.status(401).json({ error: 'Μη εξουσιοδοτημένη πρόσβαση.' });
+  }
+
+  if (!targetStudentId) {
+    return res.status(400).json({ error: 'Δεν ορίστηκε μαθητής.' });
+  }
+
+  const allVotes = getVotes();
+  if (allVotes[targetStudentId]) {
+    delete allVotes[targetStudentId];
+    saveVotes(allVotes);
+    res.json({ success: true, message: 'Οι ψήφοι του μαθητή διαγράφηκαν με επιτυχία!' });
+  } else {
+    res.status(404).json({ error: 'Δεν βρέθηκαν ψήφοι για τον συγκεκριμένο μαθητή.' });
+  }
 });
 
 // Export Results to Excel

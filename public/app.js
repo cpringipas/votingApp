@@ -305,6 +305,32 @@ function setupEventListeners() {
     // Open in a new tab/download with results password
     window.location.href = `/api/admin/export?password=${encodeURIComponent(resultsAdminPassword)}`;
   });
+
+  // Reset all votes
+  const resetAllBtn = document.getElementById('admin-reset-all-btn');
+  resetAllBtn.addEventListener('click', async () => {
+    const doubleCheck = confirm('⚠️ ΠΡΟΣΟΧΗ! Είστε σίγουροι ότι θέλετε να διαγράψετε ΟΛΕΣ τις ψήφους από τη βάση δεδομένων; Αυτή η ενέργεια είναι οριστική!');
+    if (!doubleCheck) return;
+
+    try {
+      const response = await fetch('/api/admin/reset-all', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: resultsAdminPassword })
+      });
+
+      const data = await response.json();
+      if (response.ok) {
+        showToast(data.message || 'Όλες οι ψήφοι διαγράφηκαν επιτυχώς.', 'success');
+        loadAndRenderResults();
+      } else {
+        showToast(data.error || 'Σφάλμα κατά την επαναφορά.', 'error');
+      }
+    } catch (err) {
+      console.error(err);
+      showToast('Σφάλμα σύνδεσης.', 'error');
+    }
+  });
 }
 
 // Global search quick selection click handler
@@ -605,8 +631,47 @@ async function loadAndRenderResults() {
       container.appendChild(card);
     });
 
+    // Render voters list for administration
+    const votersContainer = document.getElementById('voters-list-container');
+    if (data.voters && data.voters.length > 0) {
+      votersContainer.innerHTML = data.voters.map(v => `
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 15px; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.9rem;">
+          <span>👤 ${v.fullName} <span style="font-size: 0.75rem; background: rgba(99,102,241,0.25); padding: 2px 6px; border-radius: 4px; color: #a5b4fc; margin-left: 5px;">Τμήμα ${v.class}</span></span>
+          <button type="button" class="btn btn-danger btn-sm" style="padding: 4px 10px; font-size: 0.75rem; background-color: var(--danger);" onclick="adminDeleteVote('${v.id}')">Διαγραφή 🗑️</button>
+        </div>
+      `).join('');
+    } else {
+      votersContainer.innerHTML = `<div style="padding: 15px; text-align: center; color: var(--text-muted); font-size: 0.85rem; font-style: italic;">Δεν υπάρχουν ακόμη ψήφοι στη βάση.</div>`;
+    }
+
   } catch (error) {
     console.error('Results render error:', error);
     container.innerHTML = '<div class="alert alert-danger" style="margin: 20px;">Αδυναμία φόρτωσης αποτελεσμάτων. Παρακαλώ ελέγξτε τη σύνδεσή σας.</div>';
   }
 }
+
+window.adminDeleteVote = async function(studentId) {
+  if (!confirm('⚠️ Είστε σίγουροι ότι θέλετε να διαγράψετε τις ψήφους αυτού του μαθητή; Ο μαθητής θα έχει δικαίωμα να ψηφίσει ξανά από την αρχή.')) return;
+
+  try {
+    const response = await fetch('/api/admin/delete-vote', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        password: resultsAdminPassword,
+        targetStudentId: studentId
+      })
+    });
+
+    const data = await response.json();
+    if (response.ok) {
+      showToast(data.message || 'Οι ψήφοι του μαθητή διαγράφηκαν.', 'success');
+      loadAndRenderResults(); // Refresh results and voter list
+    } else {
+      showToast(data.error || 'Σφάλμα κατά τη διαγραφή.', 'error');
+    }
+  } catch (err) {
+    console.error(err);
+    showToast('Σφάλμα σύνδεσης με τον διακομιστή.', 'error');
+  }
+};

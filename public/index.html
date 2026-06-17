@@ -167,6 +167,27 @@
             </button>
           </div>
 
+          <!-- Admin Panel: Manage Votes -->
+          <div class="card glass-card" style="margin-bottom: 25px; border-top: 4px solid var(--danger);">
+            <h3 style="color: #fca5a5; margin-bottom: 5px; font-size: 1.2rem;">⚙️ Διαχείριση Ψήφων (Admin)</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 15px;">
+              Δείτε ποιοι μαθητές έχουν ψηφίσει. Μπορείτε να διαγράψετε τις ψήφους ενός συγκεκριμένου μαθητή ή να κάνετε ολική επαναφορά.
+            </p>
+            
+            <div id="voters-list-container" style="max-height: 200px; overflow-y: auto; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; background: rgba(15,23,42,0.3);">
+              <!-- List of voters with delete buttons -->
+              <div style="padding: 15px; text-align: center; color: var(--text-muted); font-style: italic; font-size: 0.85rem;">
+                Φόρτωση λίστας...
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 15px; justify-content: flex-end;">
+              <button type="button" id="admin-reset-all-btn" class="btn btn-danger btn-sm">
+                🚨 Ολική Διαγραφή Ψήφων (Reset All)
+              </button>
+            </div>
+          </div>
+
           <div class="results-grid" id="results-container">
             <!-- Results list will be generated here by JS -->
             <div class="loading-spinner">Υπολογισμός αποτελεσμάτων...</div>
