@@ -192,6 +192,9 @@ app.post('/api/vote', (req, res) => {
 
     const votedStudentId = votes[catId];
     if (votedStudentId) {
+      // SECURITY: A user cannot vote for themselves!
+      if (votedStudentId === studentId) continue;
+
       const exists = students.some(s => s.id === votedStudentId);
       if (exists) {
         validatedVotes[catId] = votedStudentId;
@@ -207,6 +210,11 @@ app.post('/api/vote', (req, res) => {
 
 // Get aggregated voting results (leaderboard)
 app.get('/api/results', (req, res) => {
+  const { password } = req.query;
+  if (password !== 'Papaioannou1978') {
+    return res.status(401).json({ error: 'Λανθασμένο συνθηματικό αποτελεσμάτων.' });
+  }
+
   const students = getStudents();
   const allVotes = getVotes();
   
@@ -258,7 +266,11 @@ app.get('/api/results', (req, res) => {
 
 // Export Results to Excel
 app.get('/api/admin/export', async (req, res) => {
-  // Let's secure this with a query key or just let it download freely (since it's a local app)
+  const { password } = req.query;
+  if (password !== 'Papaioannou1978') {
+    return res.status(401).send('Μη εξουσιοδοτημένη πρόσβαση.');
+  }
+
   try {
     const students = getStudents();
     const allVotes = getVotes();

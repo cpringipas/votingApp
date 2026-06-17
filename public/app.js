@@ -4,6 +4,8 @@ let categories = [];
 let currentUser = null;
 let currentPassword = '';
 let userVotes = {};
+let isResultsUnlocked = false;
+let resultsAdminPassword = '';
 
 // Helper: Normalize Greek string (lowercase, remove accents)
 function normalize(str) {
@@ -151,6 +153,8 @@ function setupEventListeners() {
     currentUser = null;
     currentPassword = '';
     userVotes = {};
+    isResultsUnlocked = false;
+    resultsAdminPassword = '';
     
     // Clear forms
     passwordInput.value = '';
@@ -177,9 +181,44 @@ function setupEventListeners() {
       document.getElementById(tabId).classList.add('active');
 
       if (tabId === 'results-tab') {
-        loadAndRenderResults();
+        checkResultsAccess();
       }
     });
+  });
+
+  // Unlock Results event
+  const unlockResultsBtn = document.getElementById('unlock-results-btn');
+  const resultsPasswordInput = document.getElementById('results-password-input');
+  const resultsAuthError = document.getElementById('results-auth-error');
+
+  unlockResultsBtn.addEventListener('click', async () => {
+    const password = resultsPasswordInput.value.trim();
+    if (!password) return;
+
+    resultsAuthError.classList.add('hidden');
+    unlockResultsBtn.disabled = true;
+    unlockResultsBtn.textContent = 'Ξεκλείδωμα...';
+
+    try {
+      const response = await fetch(`/api/results?password=${encodeURIComponent(password)}`);
+      if (response.ok) {
+        isResultsUnlocked = true;
+        resultsAdminPassword = password;
+        showToast('Τα αποτελέσματα ξεκλειδώθηκαν!', 'success');
+        checkResultsAccess();
+      } else {
+        const data = await response.json();
+        resultsAuthError.innerText = data.error || 'Λανθασμένο συνθηματικό αποτελεσμάτων.';
+        resultsAuthError.classList.remove('hidden');
+      }
+    } catch (err) {
+      console.error(err);
+      resultsAuthError.innerText = 'Σφάλμα σύνδεσης. Παρακαλώ δοκιμάστε ξανά.';
+      resultsAuthError.classList.remove('hidden');
+    } finally {
+      unlockResultsBtn.disabled = false;
+      unlockResultsBtn.textContent = 'Ξεκλείδωμα 🔓';
+    }
   });
 
   // Global Student Lookup (Helper Box)
@@ -263,8 +302,8 @@ function setupEventListeners() {
 
   // Admin Export Button
   adminExportBtn.addEventListener('click', () => {
-    // Open in a new tab/download
-    window.location.href = '/api/admin/export';
+    // Open in a new tab/download with results password
+    window.location.href = `/api/admin/export?password=${encodeURIComponent(resultsAdminPassword)}`;
   });
 }
 
@@ -390,6 +429,9 @@ function populateComboboxDropdown(catId, queryText) {
   
   // Filter students based on query
   const filteredStudents = allStudents.filter(s => {
+    // SECURITY: A user cannot vote for themselves!
+    if (currentUser && s.id === currentUser.id) return false;
+
     if (!query) return true;
     return normalize(s.fullName).includes(query) || normalize(s.class).includes(query);
   });
@@ -477,12 +519,28 @@ function updateVotingProgress() {
 // -------------------------------------------------------------
 // RENDER RESULTS INTERFACE (LEADERBOARD)
 // -------------------------------------------------------------
+function checkResultsAccess() {
+  const authCard = document.getElementById('results-auth-card');
+  const mainContent = document.getElementById('results-main-content');
+  
+  if (isResultsUnlocked) {
+    authCard.classList.add('hidden');
+    mainContent.classList.remove('hidden');
+    loadAndRenderResults();
+  } else {
+    authCard.classList.remove('hidden');
+    mainContent.classList.add('hidden');
+    document.getElementById('results-password-input').value = '';
+    document.getElementById('results-auth-error').classList.add('hidden');
+  }
+}
+
 async function loadAndRenderResults() {
   const container = document.getElementById('results-container');
   container.innerHTML = '<div class="loading-spinner">Φόρτωση και υπολογισμός αποτελεσμάτων...</div>';
 
   try {
-    const response = await fetch('/api/results');
+    const response = await fetch(`/api/results?password=${encodeURIComponent(resultsAdminPassword)}`);
     if (!response.ok) throw new Error('Failed to load results');
     
     const data = await response.json();

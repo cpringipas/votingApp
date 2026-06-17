@@ -135,27 +135,42 @@
 
       <!-- TAB CONTENT: RESULTS -->
       <div id="results-tab" class="tab-content">
-        <div class="results-header glass-card">
-          <div class="results-stats">
-            <div>
-              <span class="stat-number" id="stats-total-voters">0</span>
-              <span class="stat-label">Μαθητές Ψήφισαν</span>
-            </div>
-            <div class="divider"></div>
-            <div>
-              <span class="stat-number" id="stats-percent-participation">0%</span>
-              <span class="stat-label">Συμμετοχή</span>
-            </div>
+        <!-- Results Password Prompt Card -->
+        <div id="results-auth-card" class="card glass-card login-card" style="margin-top: 20px;">
+          <h3 style="text-align: center; margin-bottom: 10px; font-size: 1.4rem;">📊 Προβολή Αποτελεσμάτων</h3>
+          <p class="card-instruction">Εισαγάγετε το ειδικό συνθηματικό αποτελεσμάτων για να ξεκλειδώσετε τα live στατιστικά.</p>
+          <div class="form-group">
+            <label for="results-password-input">Συνθηματικό Αποτελεσμάτων</label>
+            <input type="password" id="results-password-input" placeholder="Εισαγάγετε κωδικό...">
           </div>
-          <button id="admin-export-btn" class="btn btn-primary">
-            <span>Εξαγωγή σε Excel (Admin)</span>
-            <span class="btn-icon">📥</span>
-          </button>
+          <button type="button" id="unlock-results-btn" class="btn btn-primary btn-block">Ξεκλείδωμα 🔓</button>
+          <div id="results-auth-error" class="alert alert-danger hidden"></div>
         </div>
 
-        <div class="results-grid" id="results-container">
-          <!-- Results list will be generated here by JS -->
-          <div class="loading-spinner">Υπολογισμός αποτελεσμάτων...</div>
+        <!-- Real Results Content (hidden by default) -->
+        <div id="results-main-content" class="hidden">
+          <div class="results-header glass-card">
+            <div class="results-stats">
+              <div>
+                <span class="stat-number" id="stats-total-voters">0</span>
+                <span class="stat-label">Μαθητές Ψήφισαν</span>
+              </div>
+              <div class="divider"></div>
+              <div>
+                <span class="stat-number" id="stats-percent-participation">0%</span>
+                <span class="stat-label">Συμμετοχή</span>
+              </div>
+            </div>
+            <button id="admin-export-btn" class="btn btn-primary">
+              <span>Εξαγωγή σε Excel (Admin)</span>
+              <span class="btn-icon">📥</span>
+            </button>
+          </div>
+
+          <div class="results-grid" id="results-container">
+            <!-- Results list will be generated here by JS -->
+            <div class="loading-spinner">Υπολογισμός αποτελεσμάτων...</div>
+          </div>
         </div>
       </div>
 
