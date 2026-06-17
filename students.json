@@ -1,0 +1,1609 @@
+[
+  {
+    "id": "student_1",
+    "fullName": "Αγριδιώτης Ανδρέας",
+    "class": "Γ01",
+    "surname": "Αγριδιώτης",
+    "firstNames": "Ανδρέας",
+    "passwords": [
+      "αγριδιωτης2026",
+      "agridiotis2026"
+    ]
+  },
+  {
+    "id": "student_2",
+    "fullName": "Ανδρέου Κυριάκος",
+    "class": "Γ01",
+    "surname": "Ανδρέου",
+    "firstNames": "Κυριάκος",
+    "passwords": [
+      "ανδρεου2026",
+      "andreou2026"
+    ]
+  },
+  {
+    "id": "student_3",
+    "fullName": "Ανδρέου Μάρκος",
+    "class": "Γ01",
+    "surname": "Ανδρέου",
+    "firstNames": "Μάρκος",
+    "passwords": [
+      "ανδρεου2026",
+      "andreou2026"
+    ]
+  },
+  {
+    "id": "student_4",
+    "fullName": "Αποστολόπουλος Στέφανος",
+    "class": "Γ01",
+    "surname": "Αποστολόπουλος",
+    "firstNames": "Στέφανος",
+    "passwords": [
+      "αποστολοπουλος2026",
+      "apostolopoulos2026"
+    ]
+  },
+  {
+    "id": "student_5",
+    "fullName": "Γιαννούδη Κυριακή",
+    "class": "Γ01",
+    "surname": "Γιαννούδη",
+    "firstNames": "Κυριακή",
+    "passwords": [
+      "γιαννουδη2026",
+      "giannoudi2026"
+    ]
+  },
+  {
+    "id": "student_6",
+    "fullName": "Διομήδους Κωνσταντίνος",
+    "class": "Γ01",
+    "surname": "Διομήδους",
+    "firstNames": "Κωνσταντίνος",
+    "passwords": [
+      "διομηδους2026",
+      "diomidous2026"
+    ]
+  },
+  {
+    "id": "student_7",
+    "fullName": "Θεμιστοκλέους Ελεονώρα",
+    "class": "Γ01",
+    "surname": "Θεμιστοκλέους",
+    "firstNames": "Ελεονώρα",
+    "passwords": [
+      "θεμιστοκλεους2026",
+      "themistokleous2026"
+    ]
+  },
+  {
+    "id": "student_8",
+    "fullName": "Θεοφάνους Κυριάκος",
+    "class": "Γ01",
+    "surname": "Θεοφάνους",
+    "firstNames": "Κυριάκος",
+    "passwords": [
+      "θεοφανους2026",
+      "theofanous2026"
+    ]
+  },
+  {
+    "id": "student_9",
+    "fullName": "Θωμά Αντρέας",
+    "class": "Γ01",
+    "surname": "Θωμά",
+    "firstNames": "Αντρέας",
+    "passwords": [
+      "θωμα2026",
+      "thoma2026"
+    ]
+  },
+  {
+    "id": "student_10",
+    "fullName": "Ιωαννίδου Ελένη",
+    "class": "Γ01",
+    "surname": "Ιωαννίδου",
+    "firstNames": "Ελένη",
+    "passwords": [
+      "ιωαννιδου2026",
+      "ioannidou2026"
+    ]
+  },
+  {
+    "id": "student_11",
+    "fullName": "Κριστέα Θεοδώρα",
+    "class": "Γ01",
+    "surname": "Κριστέα",
+    "firstNames": "Θεοδώρα",
+    "passwords": [
+      "κριστεα2026",
+      "kristea2026"
+    ]
+  },
+  {
+    "id": "student_12",
+    "fullName": "Κυπριανού Νεφέλη Ειρήνη",
+    "class": "Γ01",
+    "surname": "Κυπριανού",
+    "firstNames": "Νεφέλη Ειρήνη",
+    "passwords": [
+      "κυπριανου2026",
+      "kyprianou2026",
+      "kiprianou2026"
+    ]
+  },
+  {
+    "id": "student_13",
+    "fullName": "Κωνσταντινίδου Ελπίδα",
+    "class": "Γ01",
+    "surname": "Κωνσταντινίδου",
+    "firstNames": "Ελπίδα",
+    "passwords": [
+      "κωνσταντινιδου2026",
+      "konstantinidou2026",
+      "konstadinidou2026"
+    ]
+  },
+  {
+    "id": "student_14",
+    "fullName": "Κωνσταντίνου Ζωή",
+    "class": "Γ01",
+    "surname": "Κωνσταντίνου",
+    "firstNames": "Ζωή",
+    "passwords": [
+      "κωνσταντινου2026",
+      "konstantinou2026",
+      "konstadinou2026"
+    ]
+  },
+  {
+    "id": "student_15",
+    "fullName": "Παναγιώτου Χρίστος",
+    "class": "Γ01",
+    "surname": "Παναγιώτου",
+    "firstNames": "Χρίστος",
+    "passwords": [
+      "παναγιωτου2026",
+      "panagiotou2026"
+    ]
+  },
+  {
+    "id": "student_16",
+    "fullName": "Παπαμιχαήλ Ανδρέας",
+    "class": "Γ01",
+    "surname": "Παπαμιχαήλ",
+    "firstNames": "Ανδρέας",
+    "passwords": [
+      "παπαμιχαηλ2026",
+      "papamichail2026"
+    ]
+  },
+  {
+    "id": "student_17",
+    "fullName": "Πήττα Μαρία",
+    "class": "Γ01",
+    "surname": "Πήττα",
+    "firstNames": "Μαρία",
+    "passwords": [
+      "πηττα2026",
+      "pitta2026"
+    ]
+  },
+  {
+    "id": "student_18",
+    "fullName": "Σωφρονίου Ιάκωβος",
+    "class": "Γ01",
+    "surname": "Σωφρονίου",
+    "firstNames": "Ιάκωβος",
+    "passwords": [
+      "σωφρονιου2026",
+      "sofroniou2026"
+    ]
+  },
+  {
+    "id": "student_19",
+    "fullName": "Ταράου Μπριάνα Αντρέα",
+    "class": "Γ01",
+    "surname": "Ταράου",
+    "firstNames": "Μπριάνα Αντρέα",
+    "passwords": [
+      "ταραου2026",
+      "taraou2026"
+    ]
+  },
+  {
+    "id": "student_20",
+    "fullName": "Ταράου Ραϊσα Στεφανία",
+    "class": "Γ01",
+    "surname": "Ταράου",
+    "firstNames": "Ραϊσα Στεφανία",
+    "passwords": [
+      "ταραου2026",
+      "taraou2026"
+    ]
+  },
+  {
+    "id": "student_21",
+    "fullName": "Φλωρής Ιωάννης",
+    "class": "Γ01",
+    "surname": "Φλωρής",
+    "firstNames": "Ιωάννης",
+    "passwords": [
+      "φλωρης2026",
+      "floris2026"
+    ]
+  },
+  {
+    "id": "student_22",
+    "fullName": "Χρυσοστόμου Μαρία",
+    "class": "Γ01",
+    "surname": "Χρυσοστόμου",
+    "firstNames": "Μαρία",
+    "passwords": [
+      "χρυσοστομου2026",
+      "chrysostomou2026",
+      "chrisostomou2026"
+    ]
+  },
+  {
+    "id": "student_23",
+    "fullName": "Αντωνίου Κωνσταντίνα",
+    "class": "Γ02",
+    "surname": "Αντωνίου",
+    "firstNames": "Κωνσταντίνα",
+    "passwords": [
+      "αντωνιου2026",
+      "antoniou2026",
+      "adoniou2026"
+    ]
+  },
+  {
+    "id": "student_24",
+    "fullName": "Γεωργίου Φαίδρα",
+    "class": "Γ02",
+    "surname": "Γεωργίου",
+    "firstNames": "Φαίδρα",
+    "passwords": [
+      "γεωργιου2026",
+      "georgiou2026"
+    ]
+  },
+  {
+    "id": "student_25",
+    "fullName": "Γεωργίου Χριστόφορος",
+    "class": "Γ02",
+    "surname": "Γεωργίου",
+    "firstNames": "Χριστόφορος",
+    "passwords": [
+      "γεωργιου2026",
+      "georgiou2026"
+    ]
+  },
+  {
+    "id": "student_26",
+    "fullName": "Γιάγκου Κυριάκος",
+    "class": "Γ02",
+    "surname": "Γιάγκου",
+    "firstNames": "Κυριάκος",
+    "passwords": [
+      "γιαγκου2026",
+      "giagkou2026"
+    ]
+  },
+  {
+    "id": "student_27",
+    "fullName": "Θεοφάνους Αντριάνα",
+    "class": "Γ02",
+    "surname": "Θεοφάνους",
+    "firstNames": "Αντριάνα",
+    "passwords": [
+      "θεοφανους2026",
+      "theofanous2026"
+    ]
+  },
+  {
+    "id": "student_28",
+    "fullName": "Ιωάννου Ανδρέας",
+    "class": "Γ02",
+    "surname": "Ιωάννου",
+    "firstNames": "Ανδρέας",
+    "passwords": [
+      "ιωαννου2026",
+      "ioannou2026"
+    ]
+  },
+  {
+    "id": "student_29",
+    "fullName": "Κούβαρου Ειρήνη",
+    "class": "Γ02",
+    "surname": "Κούβαρου",
+    "firstNames": "Ειρήνη",
+    "passwords": [
+      "κουβαρου2026",
+      "kouvarou2026",
+      "koubarou2026"
+    ]
+  },
+  {
+    "id": "student_30",
+    "fullName": "Κουφκή Κορίνα",
+    "class": "Γ02",
+    "surname": "Κουφκή",
+    "firstNames": "Κορίνα",
+    "passwords": [
+      "κουφκη2026",
+      "koufki2026"
+    ]
+  },
+  {
+    "id": "student_31",
+    "fullName": "Κυπριανού Θεοδώρα",
+    "class": "Γ02",
+    "surname": "Κυπριανού",
+    "firstNames": "Θεοδώρα",
+    "passwords": [
+      "κυπριανου2026",
+      "kyprianou2026",
+      "kiprianou2026"
+    ]
+  },
+  {
+    "id": "student_32",
+    "fullName": "Κωνσταντίνου Κωνσταντίνος",
+    "class": "Γ02",
+    "surname": "Κωνσταντίνου",
+    "firstNames": "Κωνσταντίνος",
+    "passwords": [
+      "κωνσταντινου2026",
+      "konstantinou2026",
+      "konstadinou2026"
+    ]
+  },
+  {
+    "id": "student_33",
+    "fullName": "Μεττή Αναστασία",
+    "class": "Γ02",
+    "surname": "Μεττή",
+    "firstNames": "Αναστασία",
+    "passwords": [
+      "μεττη2026",
+      "metti2026"
+    ]
+  },
+  {
+    "id": "student_34",
+    "fullName": "Ντιμίτροβα Κιάρα Βάλερη",
+    "class": "Γ02",
+    "surname": "Ντιμίτροβα",
+    "firstNames": "Κιάρα Βάλερη",
+    "passwords": [
+      "ντιμιτροβα2026",
+      "ntimitrova2026",
+      "ntimitroba2026",
+      "dimitrova2026"
+    ]
+  },
+  {
+    "id": "student_35",
+    "fullName": "Παϊσιου Χάρις",
+    "class": "Γ02",
+    "surname": "Παϊσιου",
+    "firstNames": "Χάρις",
+    "passwords": [
+      "παισιου2026",
+      "paisiou2026"
+    ]
+  },
+  {
+    "id": "student_36",
+    "fullName": "Παντελή Γιώργος",
+    "class": "Γ02",
+    "surname": "Παντελή",
+    "firstNames": "Γιώργος",
+    "passwords": [
+      "παντελη2026",
+      "panteli2026",
+      "padeli2026"
+    ]
+  },
+  {
+    "id": "student_37",
+    "fullName": "Παντελίδης Γιώργος",
+    "class": "Γ02",
+    "surname": "Παντελίδης",
+    "firstNames": "Γιώργος",
+    "passwords": [
+      "παντελιδης2026",
+      "pantelidis2026",
+      "padelidis2026"
+    ]
+  },
+  {
+    "id": "student_38",
+    "fullName": "Σιαμπαρτάς Κρίστιαν",
+    "class": "Γ02",
+    "surname": "Σιαμπαρτάς",
+    "firstNames": "Κρίστιαν",
+    "passwords": [
+      "σιαμπαρτας2026",
+      "siampartas2026",
+      "siabartas2026"
+    ]
+  },
+  {
+    "id": "student_39",
+    "fullName": "Σιαξιατέ Αντριανή",
+    "class": "Γ02",
+    "surname": "Σιαξιατέ",
+    "firstNames": "Αντριανή",
+    "passwords": [
+      "σιαξιατε2026",
+      "siaxiate2026"
+    ]
+  },
+  {
+    "id": "student_40",
+    "fullName": "Σταυρίδου Τατιάνα",
+    "class": "Γ02",
+    "surname": "Σταυρίδου",
+    "firstNames": "Τατιάνα",
+    "passwords": [
+      "σταυριδου2026",
+      "stavridou2026",
+      "stabridou2026"
+    ]
+  },
+  {
+    "id": "student_41",
+    "fullName": "Τζιωνής Γιώργος",
+    "class": "Γ02",
+    "surname": "Τζιωνής",
+    "firstNames": "Γιώργος",
+    "passwords": [
+      "τζιωνης2026",
+      "tzionis2026"
+    ]
+  },
+  {
+    "id": "student_42",
+    "fullName": "Χαραλαμπίδης Χάρης",
+    "class": "Γ02",
+    "surname": "Χαραλαμπίδης",
+    "firstNames": "Χάρης",
+    "passwords": [
+      "χαραλαμπιδης2026",
+      "charalampidis2026",
+      "charalabidis2026"
+    ]
+  },
+  {
+    "id": "student_43",
+    "fullName": "Χατζηαποστόλου Σωτήριος",
+    "class": "Γ02",
+    "surname": "Χατζηαποστόλου",
+    "firstNames": "Σωτήριος",
+    "passwords": [
+      "χατζηαποστολου2026",
+      "chatziapostolou2026"
+    ]
+  },
+  {
+    "id": "student_44",
+    "fullName": "Χατζησολωμού Κυριάκος",
+    "class": "Γ02",
+    "surname": "Χατζησολωμού",
+    "firstNames": "Κυριάκος",
+    "passwords": [
+      "χατζησολωμου2026",
+      "chatzisolomou2026"
+    ]
+  },
+  {
+    "id": "student_45",
+    "fullName": "Αμπαζόγχλι Σιχάμ Ανδριάνα",
+    "class": "Γ03",
+    "surname": "Αμπαζόγχλι",
+    "firstNames": "Σιχάμ Ανδριάνα",
+    "passwords": [
+      "αμπαζογχλι2026",
+      "ampazogchli2026",
+      "abazogchli2026"
+    ]
+  },
+  {
+    "id": "student_46",
+    "fullName": "Αναστασίου Χρίστος-Άγγελος",
+    "class": "Γ03",
+    "surname": "Αναστασίου",
+    "firstNames": "Χρίστος-Άγγελος",
+    "passwords": [
+      "αναστασιου2026",
+      "anastasiou2026"
+    ]
+  },
+  {
+    "id": "student_47",
+    "fullName": "Βαλαωρίτου Ιωάννα",
+    "class": "Γ03",
+    "surname": "Βαλαωρίτου",
+    "firstNames": "Ιωάννα",
+    "passwords": [
+      "βαλαωριτου2026",
+      "valaoritou2026",
+      "balaoritou2026"
+    ]
+  },
+  {
+    "id": "student_48",
+    "fullName": "Βανέζη Αντρέας",
+    "class": "Γ03",
+    "surname": "Βανέζη",
+    "firstNames": "Αντρέας",
+    "passwords": [
+      "βανεζη2026",
+      "vanezi2026",
+      "banezi2026"
+    ]
+  },
+  {
+    "id": "student_49",
+    "fullName": "Γαλαξή Μαρία Αιμιλία",
+    "class": "Γ03",
+    "surname": "Γαλαξή",
+    "firstNames": "Μαρία Αιμιλία",
+    "passwords": [
+      "γαλαξη2026",
+      "galaxi2026"
+    ]
+  },
+  {
+    "id": "student_50",
+    "fullName": "Γιώρκα Γιώργος",
+    "class": "Γ03",
+    "surname": "Γιώρκα",
+    "firstNames": "Γιώργος",
+    "passwords": [
+      "γιωρκα2026",
+      "giorka2026"
+    ]
+  },
+  {
+    "id": "student_51",
+    "fullName": "Δρουσιώτης Δημήτρης",
+    "class": "Γ03",
+    "surname": "Δρουσιώτης",
+    "firstNames": "Δημήτρης",
+    "passwords": [
+      "δρουσιωτης2026",
+      "drousiotis2026"
+    ]
+  },
+  {
+    "id": "student_52",
+    "fullName": "Ελευθερίου Ελευθέριος",
+    "class": "Γ03",
+    "surname": "Ελευθερίου",
+    "firstNames": "Ελευθέριος",
+    "passwords": [
+      "ελευθεριου2026",
+      "elevtheriou2026",
+      "elebtheriou2026"
+    ]
+  },
+  {
+    "id": "student_53",
+    "fullName": "Ζάνος Στέφανος",
+    "class": "Γ03",
+    "surname": "Ζάνος",
+    "firstNames": "Στέφανος",
+    "passwords": [
+      "ζανος2026",
+      "zanos2026"
+    ]
+  },
+  {
+    "id": "student_54",
+    "fullName": "Ιωάννου Χαράλαμπος",
+    "class": "Γ03",
+    "surname": "Ιωάννου",
+    "firstNames": "Χαράλαμπος",
+    "passwords": [
+      "ιωαννου2026",
+      "ioannou2026"
+    ]
+  },
+  {
+    "id": "student_55",
+    "fullName": "Καταλάνου Παναγιώτης",
+    "class": "Γ03",
+    "surname": "Καταλάνου",
+    "firstNames": "Παναγιώτης",
+    "passwords": [
+      "καταλανου2026",
+      "katalanou2026"
+    ]
+  },
+  {
+    "id": "student_56",
+    "fullName": "Κατσαρός Γεώργιος",
+    "class": "Γ03",
+    "surname": "Κατσαρός",
+    "firstNames": "Γεώργιος",
+    "passwords": [
+      "κατσαρος2026",
+      "katsaros2026"
+    ]
+  },
+  {
+    "id": "student_57",
+    "fullName": "Μαυρομμάτης Νικόλας",
+    "class": "Γ03",
+    "surname": "Μαυρομμάτης",
+    "firstNames": "Νικόλας",
+    "passwords": [
+      "μαυρομματης2026",
+      "mavrommatis2026",
+      "mabrommatis2026"
+    ]
+  },
+  {
+    "id": "student_58",
+    "fullName": "Ξενοφώντος Βάσια",
+    "class": "Γ03",
+    "surname": "Ξενοφώντος",
+    "firstNames": "Βάσια",
+    "passwords": [
+      "ξενοφωντος2026",
+      "xenofontos2026",
+      "xenofodos2026"
+    ]
+  },
+  {
+    "id": "student_59",
+    "fullName": "Ξενοφώντος Δήμητρα",
+    "class": "Γ03",
+    "surname": "Ξενοφώντος",
+    "firstNames": "Δήμητρα",
+    "passwords": [
+      "ξενοφωντος2026",
+      "xenofontos2026",
+      "xenofodos2026"
+    ]
+  },
+  {
+    "id": "student_60",
+    "fullName": "Ξενοφώντος Ξένια",
+    "class": "Γ03",
+    "surname": "Ξενοφώντος",
+    "firstNames": "Ξένια",
+    "passwords": [
+      "ξενοφωντος2026",
+      "xenofontos2026",
+      "xenofodos2026"
+    ]
+  },
+  {
+    "id": "student_61",
+    "fullName": "Οικονομίδου Σωτηρούλλα",
+    "class": "Γ03",
+    "surname": "Οικονομίδου",
+    "firstNames": "Σωτηρούλλα",
+    "passwords": [
+      "οικονομιδου2026",
+      "oikonomidou2026"
+    ]
+  },
+  {
+    "id": "student_62",
+    "fullName": "Παπαλλή Άντρια",
+    "class": "Γ03",
+    "surname": "Παπαλλή",
+    "firstNames": "Άντρια",
+    "passwords": [
+      "παπαλλη2026",
+      "papalli2026"
+    ]
+  },
+  {
+    "id": "student_63",
+    "fullName": "Σιάτη Στυλιανή",
+    "class": "Γ03",
+    "surname": "Σιάτη",
+    "firstNames": "Στυλιανή",
+    "passwords": [
+      "σιατη2026",
+      "siati2026"
+    ]
+  },
+  {
+    "id": "student_64",
+    "fullName": "Σπυροπούλου Ελένη",
+    "class": "Γ03",
+    "surname": "Σπυροπούλου",
+    "firstNames": "Ελένη",
+    "passwords": [
+      "σπυροπουλου2026",
+      "spyropoulou2026",
+      "spiropoulou2026"
+    ]
+  },
+  {
+    "id": "student_65",
+    "fullName": "Φραγκούδης Στέφανος",
+    "class": "Γ03",
+    "surname": "Φραγκούδης",
+    "firstNames": "Στέφανος",
+    "passwords": [
+      "φραγκουδης2026",
+      "fragkoudis2026"
+    ]
+  },
+  {
+    "id": "student_66",
+    "fullName": "Αναστόπουλος Στέφανος",
+    "class": "Γ04",
+    "surname": "Αναστόπουλος",
+    "firstNames": "Στέφανος",
+    "passwords": [
+      "αναστοπουλος2026",
+      "anastopoulos2026"
+    ]
+  },
+  {
+    "id": "student_67",
+    "fullName": "Αριστείδου Χρίστος",
+    "class": "Γ04",
+    "surname": "Αριστείδου",
+    "firstNames": "Χρίστος",
+    "passwords": [
+      "αριστειδου2026",
+      "aristeidou2026"
+    ]
+  },
+  {
+    "id": "student_68",
+    "fullName": "Δαμιανού Άντρια",
+    "class": "Γ04",
+    "surname": "Δαμιανού",
+    "firstNames": "Άντρια",
+    "passwords": [
+      "δαμιανου2026",
+      "damianou2026"
+    ]
+  },
+  {
+    "id": "student_69",
+    "fullName": "Επισκοπίδου Σώτια Λητώ",
+    "class": "Γ04",
+    "surname": "Επισκοπίδου",
+    "firstNames": "Σώτια Λητώ",
+    "passwords": [
+      "επισκοπιδου2026",
+      "episkopidou2026"
+    ]
+  },
+  {
+    "id": "student_70",
+    "fullName": "Ζήνωνος Βικτώρια",
+    "class": "Γ04",
+    "surname": "Ζήνωνος",
+    "firstNames": "Βικτώρια",
+    "passwords": [
+      "ζηνωνος2026",
+      "zinonos2026"
+    ]
+  },
+  {
+    "id": "student_71",
+    "fullName": "Θρασυβούλου Χρίστος",
+    "class": "Γ04",
+    "surname": "Θρασυβούλου",
+    "firstNames": "Χρίστος",
+    "passwords": [
+      "θρασυβουλου2026",
+      "thrasyvoulou2026",
+      "thrasyboulou2026",
+      "thrasivoulou2026"
+    ]
+  },
+  {
+    "id": "student_72",
+    "fullName": "Κασσιανού Βαλέρια",
+    "class": "Γ04",
+    "surname": "Κασσιανού",
+    "firstNames": "Βαλέρια",
+    "passwords": [
+      "κασσιανου2026",
+      "kassianou2026"
+    ]
+  },
+  {
+    "id": "student_73",
+    "fullName": "Κιουρουπεπιλάτσε Κριστιάλα Σιενέχα Μιτούσι",
+    "class": "Γ04",
+    "surname": "Κιουρουπεπιλάτσε",
+    "firstNames": "Κριστιάλα Σιενέχα Μιτούσι",
+    "passwords": [
+      "κιουρουπεπιλατσε2026",
+      "kiouroupepilatse2026"
+    ]
+  },
+  {
+    "id": "student_74",
+    "fullName": "Κούκουρα Άνθη",
+    "class": "Γ04",
+    "surname": "Κούκουρα",
+    "firstNames": "Άνθη",
+    "passwords": [
+      "κουκουρα2026",
+      "koukoura2026"
+    ]
+  },
+  {
+    "id": "student_75",
+    "fullName": "Κώστα Γιώργος",
+    "class": "Γ04",
+    "surname": "Κώστα",
+    "firstNames": "Γιώργος",
+    "passwords": [
+      "κωστα2026",
+      "kosta2026"
+    ]
+  },
+  {
+    "id": "student_76",
+    "fullName": "Μαρκίδη Δέσποινα",
+    "class": "Γ04",
+    "surname": "Μαρκίδη",
+    "firstNames": "Δέσποινα",
+    "passwords": [
+      "μαρκιδη2026",
+      "markidi2026"
+    ]
+  },
+  {
+    "id": "student_77",
+    "fullName": "Νικολάου Ραφαήλια",
+    "class": "Γ04",
+    "surname": "Νικολάου",
+    "firstNames": "Ραφαήλια",
+    "passwords": [
+      "νικολαου2026",
+      "nikolaou2026"
+    ]
+  },
+  {
+    "id": "student_78",
+    "fullName": "Παρμακλή Λυδία",
+    "class": "Γ04",
+    "surname": "Παρμακλή",
+    "firstNames": "Λυδία",
+    "passwords": [
+      "παρμακλη2026",
+      "parmakli2026"
+    ]
+  },
+  {
+    "id": "student_79",
+    "fullName": "Πλουτάρχου Κωνσταντίνος",
+    "class": "Γ04",
+    "surname": "Πλουτάρχου",
+    "firstNames": "Κωνσταντίνος",
+    "passwords": [
+      "πλουταρχου2026",
+      "ploutarchou2026"
+    ]
+  },
+  {
+    "id": "student_80",
+    "fullName": "Πολυδώρου Μιχάλης",
+    "class": "Γ04",
+    "surname": "Πολυδώρου",
+    "firstNames": "Μιχάλης",
+    "passwords": [
+      "πολυδωρου2026",
+      "polydorou2026",
+      "polidorou2026"
+    ]
+  },
+  {
+    "id": "student_81",
+    "fullName": "Σταυρινίδου Ιωάννα",
+    "class": "Γ04",
+    "surname": "Σταυρινίδου",
+    "firstNames": "Ιωάννα",
+    "passwords": [
+      "σταυρινιδου2026",
+      "stavrinidou2026",
+      "stabrinidou2026"
+    ]
+  },
+  {
+    "id": "student_82",
+    "fullName": "Σωτηρίου Αναστάσιος",
+    "class": "Γ04",
+    "surname": "Σωτηρίου",
+    "firstNames": "Αναστάσιος",
+    "passwords": [
+      "σωτηριου2026",
+      "sotiriou2026"
+    ]
+  },
+  {
+    "id": "student_83",
+    "fullName": "Τσιουρτή Μαρίλια",
+    "class": "Γ04",
+    "surname": "Τσιουρτή",
+    "firstNames": "Μαρίλια",
+    "passwords": [
+      "τσιουρτη2026",
+      "tsiourti2026"
+    ]
+  },
+  {
+    "id": "student_84",
+    "fullName": "Χουσεϊν Σαμάν Τζιουάν",
+    "class": "Γ04",
+    "surname": "Χουσεϊν",
+    "firstNames": "Σαμάν Τζιουάν",
+    "passwords": [
+      "χουσειν2026",
+      "chousein2026"
+    ]
+  },
+  {
+    "id": "student_85",
+    "fullName": "Χρίστου Έλληνας Ματθαίος",
+    "class": "Γ04",
+    "surname": "Χρίστου",
+    "firstNames": "Έλληνας Ματθαίος",
+    "passwords": [
+      "χριστου2026",
+      "christou2026"
+    ]
+  },
+  {
+    "id": "student_86",
+    "fullName": "Χριστοφίδου Χρυσοβαλάντω",
+    "class": "Γ04",
+    "surname": "Χριστοφίδου",
+    "firstNames": "Χρυσοβαλάντω",
+    "passwords": [
+      "χριστοφιδου2026",
+      "christofidou2026"
+    ]
+  },
+  {
+    "id": "student_87",
+    "fullName": "Αρτεμίου Εύη",
+    "class": "Γ05",
+    "surname": "Αρτεμίου",
+    "firstNames": "Εύη",
+    "passwords": [
+      "αρτεμιου2026",
+      "artemiou2026"
+    ]
+  },
+  {
+    "id": "student_88",
+    "fullName": "Γεωργίου Τάσος",
+    "class": "Γ05",
+    "surname": "Γεωργίου",
+    "firstNames": "Τάσος",
+    "passwords": [
+      "γεωργιου2026",
+      "georgiou2026"
+    ]
+  },
+  {
+    "id": "student_89",
+    "fullName": "Θεοδώρου Άννα",
+    "class": "Γ05",
+    "surname": "Θεοδώρου",
+    "firstNames": "Άννα",
+    "passwords": [
+      "θεοδωρου2026",
+      "theodorou2026"
+    ]
+  },
+  {
+    "id": "student_90",
+    "fullName": "Καρόνια Ελένη",
+    "class": "Γ05",
+    "surname": "Καρόνια",
+    "firstNames": "Ελένη",
+    "passwords": [
+      "καρονια2026",
+      "karonia2026"
+    ]
+  },
+  {
+    "id": "student_91",
+    "fullName": "Κυπριανού Ιωάννης",
+    "class": "Γ05",
+    "surname": "Κυπριανού",
+    "firstNames": "Ιωάννης",
+    "passwords": [
+      "κυπριανου2026",
+      "kyprianou2026",
+      "kiprianou2026"
+    ]
+  },
+  {
+    "id": "student_92",
+    "fullName": "Κυπριανού Φίλιππος",
+    "class": "Γ05",
+    "surname": "Κυπριανού",
+    "firstNames": "Φίλιππος",
+    "passwords": [
+      "κυπριανου2026",
+      "kyprianou2026",
+      "kiprianou2026"
+    ]
+  },
+  {
+    "id": "student_93",
+    "fullName": "Κυριάκου Νικολέτα",
+    "class": "Γ05",
+    "surname": "Κυριάκου",
+    "firstNames": "Νικολέτα",
+    "passwords": [
+      "κυριακου2026",
+      "kyriakou2026",
+      "kiriakou2026"
+    ]
+  },
+  {
+    "id": "student_94",
+    "fullName": "Κωτσονοπούλου Άλκηστις",
+    "class": "Γ05",
+    "surname": "Κωτσονοπούλου",
+    "firstNames": "Άλκηστις",
+    "passwords": [
+      "κωτσονοπουλου2026",
+      "kotsonopoulou2026"
+    ]
+  },
+  {
+    "id": "student_95",
+    "fullName": "Μιλτιάδου Ανδρέας",
+    "class": "Γ05",
+    "surname": "Μιλτιάδου",
+    "firstNames": "Ανδρέας",
+    "passwords": [
+      "μιλτιαδου2026",
+      "miltiadou2026"
+    ]
+  },
+  {
+    "id": "student_96",
+    "fullName": "Μιλτιάδου Μαρία",
+    "class": "Γ05",
+    "surname": "Μιλτιάδου",
+    "firstNames": "Μαρία",
+    "passwords": [
+      "μιλτιαδου2026",
+      "miltiadou2026"
+    ]
+  },
+  {
+    "id": "student_97",
+    "fullName": "Μιχαήλ Νέστορας",
+    "class": "Γ05",
+    "surname": "Μιχαήλ",
+    "firstNames": "Νέστορας",
+    "passwords": [
+      "μιχαηλ2026",
+      "michail2026"
+    ]
+  },
+  {
+    "id": "student_98",
+    "fullName": "Νικολαϊδη Νικολέττα",
+    "class": "Γ05",
+    "surname": "Νικολαϊδη",
+    "firstNames": "Νικολέττα",
+    "passwords": [
+      "νικολαιδη2026",
+      "nikolaidi2026"
+    ]
+  },
+  {
+    "id": "student_99",
+    "fullName": "Παντελίδης Ανδρέας",
+    "class": "Γ05",
+    "surname": "Παντελίδης",
+    "firstNames": "Ανδρέας",
+    "passwords": [
+      "παντελιδης2026",
+      "pantelidis2026",
+      "padelidis2026"
+    ]
+  },
+  {
+    "id": "student_100",
+    "fullName": "Πέρδικου Μαρία",
+    "class": "Γ05",
+    "surname": "Πέρδικου",
+    "firstNames": "Μαρία",
+    "passwords": [
+      "περδικου2026",
+      "perdikou2026"
+    ]
+  },
+  {
+    "id": "student_101",
+    "fullName": "Πέτρου Πέτρος",
+    "class": "Γ05",
+    "surname": "Πέτρου",
+    "firstNames": "Πέτρος",
+    "passwords": [
+      "πετρου2026",
+      "petrou2026"
+    ]
+  },
+  {
+    "id": "student_102",
+    "fullName": "Σάββα Χρίστος",
+    "class": "Γ05",
+    "surname": "Σάββα",
+    "firstNames": "Χρίστος",
+    "passwords": [
+      "σαββα2026",
+      "savva2026",
+      "sabba2026"
+    ]
+  },
+  {
+    "id": "student_103",
+    "fullName": "Σταυρινού Μαρία",
+    "class": "Γ05",
+    "surname": "Σταυρινού",
+    "firstNames": "Μαρία",
+    "passwords": [
+      "σταυρινου2026",
+      "stavrinou2026",
+      "stabrinou2026"
+    ]
+  },
+  {
+    "id": "student_104",
+    "fullName": "Στρατής Μάριος",
+    "class": "Γ05",
+    "surname": "Στρατής",
+    "firstNames": "Μάριος",
+    "passwords": [
+      "στρατης2026",
+      "stratis2026"
+    ]
+  },
+  {
+    "id": "student_105",
+    "fullName": "Σωτηρίου Στυλιανός",
+    "class": "Γ05",
+    "surname": "Σωτηρίου",
+    "firstNames": "Στυλιανός",
+    "passwords": [
+      "σωτηριου2026",
+      "sotiriou2026"
+    ]
+  },
+  {
+    "id": "student_106",
+    "fullName": "Ταμανάς Μάριος",
+    "class": "Γ05",
+    "surname": "Ταμανάς",
+    "firstNames": "Μάριος",
+    "passwords": [
+      "ταμανας2026",
+      "tamanas2026"
+    ]
+  },
+  {
+    "id": "student_107",
+    "fullName": "Τσεριώτη Ανθή",
+    "class": "Γ05",
+    "surname": "Τσεριώτη",
+    "firstNames": "Ανθή",
+    "passwords": [
+      "τσεριωτη2026",
+      "tserioti2026"
+    ]
+  },
+  {
+    "id": "student_108",
+    "fullName": "Χαραλάμπους Αντριάνα",
+    "class": "Γ05",
+    "surname": "Χαραλάμπους",
+    "firstNames": "Αντριάνα",
+    "passwords": [
+      "χαραλαμπους2026",
+      "charalampous2026",
+      "charalabous2026"
+    ]
+  },
+  {
+    "id": "student_109",
+    "fullName": "Χρίστου Χριστίνα",
+    "class": "Γ05",
+    "surname": "Χρίστου",
+    "firstNames": "Χριστίνα",
+    "passwords": [
+      "χριστου2026",
+      "christou2026"
+    ]
+  },
+  {
+    "id": "student_110",
+    "fullName": "Χρυσάφης Αντώνιος",
+    "class": "Γ05",
+    "surname": "Χρυσάφης",
+    "firstNames": "Αντώνιος",
+    "passwords": [
+      "χρυσαφης2026",
+      "chrysafis2026",
+      "chrisafis2026"
+    ]
+  },
+  {
+    "id": "student_111",
+    "fullName": "Ανδρέου Ανδρέας",
+    "class": "Γ06",
+    "surname": "Ανδρέου",
+    "firstNames": "Ανδρέας",
+    "passwords": [
+      "ανδρεου2026",
+      "andreou2026"
+    ]
+  },
+  {
+    "id": "student_112",
+    "fullName": "Αντρέου Δημήτρης",
+    "class": "Γ06",
+    "surname": "Αντρέου",
+    "firstNames": "Δημήτρης",
+    "passwords": [
+      "αντρεου2026",
+      "antreou2026",
+      "adreou2026"
+    ]
+  },
+  {
+    "id": "student_113",
+    "fullName": "Αντρέου Ρωσσίδη Κωνσταντίνος",
+    "class": "Γ06",
+    "surname": "Αντρέου",
+    "firstNames": "Ρωσσίδη Κωνσταντίνος",
+    "passwords": [
+      "αντρεου2026",
+      "antreou2026",
+      "adreou2026"
+    ]
+  },
+  {
+    "id": "student_114",
+    "fullName": "Ελευθεριάδης Γιάννης",
+    "class": "Γ06",
+    "surname": "Ελευθεριάδης",
+    "firstNames": "Γιάννης",
+    "passwords": [
+      "ελευθεριαδης2026",
+      "elevtheriadis2026",
+      "elebtheriadis2026"
+    ]
+  },
+  {
+    "id": "student_115",
+    "fullName": "Ιωάννου Ευγενία",
+    "class": "Γ06",
+    "surname": "Ιωάννου",
+    "firstNames": "Ευγενία",
+    "passwords": [
+      "ιωαννου2026",
+      "ioannou2026"
+    ]
+  },
+  {
+    "id": "student_116",
+    "fullName": "Καμμάς Άγγελος",
+    "class": "Γ06",
+    "surname": "Καμμάς",
+    "firstNames": "Άγγελος",
+    "passwords": [
+      "καμμας2026",
+      "kammas2026"
+    ]
+  },
+  {
+    "id": "student_117",
+    "fullName": "Καρά Μαρίνα",
+    "class": "Γ06",
+    "surname": "Καρά",
+    "firstNames": "Μαρίνα",
+    "passwords": [
+      "καρα2026",
+      "kara2026"
+    ]
+  },
+  {
+    "id": "student_118",
+    "fullName": "Κιζουρίδης Άγγελος",
+    "class": "Γ06",
+    "surname": "Κιζουρίδης",
+    "firstNames": "Άγγελος",
+    "passwords": [
+      "κιζουριδης2026",
+      "kizouridis2026"
+    ]
+  },
+  {
+    "id": "student_119",
+    "fullName": "Κυπριανού Στέφανος",
+    "class": "Γ06",
+    "surname": "Κυπριανού",
+    "firstNames": "Στέφανος",
+    "passwords": [
+      "κυπριανου2026",
+      "kyprianou2026",
+      "kiprianou2026"
+    ]
+  },
+  {
+    "id": "student_120",
+    "fullName": "Κωνσταντινίδης Μάριος",
+    "class": "Γ06",
+    "surname": "Κωνσταντινίδης",
+    "firstNames": "Μάριος",
+    "passwords": [
+      "κωνσταντινιδης2026",
+      "konstantinidis2026",
+      "konstadinidis2026"
+    ]
+  },
+  {
+    "id": "student_121",
+    "fullName": "Κωνσταντίνου Ευανθία",
+    "class": "Γ06",
+    "surname": "Κωνσταντίνου",
+    "firstNames": "Ευανθία",
+    "passwords": [
+      "κωνσταντινου2026",
+      "konstantinou2026",
+      "konstadinou2026"
+    ]
+  },
+  {
+    "id": "student_122",
+    "fullName": "Λάμπρου Κυριακή",
+    "class": "Γ06",
+    "surname": "Λάμπρου",
+    "firstNames": "Κυριακή",
+    "passwords": [
+      "λαμπρου2026",
+      "lamprou2026",
+      "labrou2026"
+    ]
+  },
+  {
+    "id": "student_123",
+    "fullName": "Λάμπρου Παρασκευή",
+    "class": "Γ06",
+    "surname": "Λάμπρου",
+    "firstNames": "Παρασκευή",
+    "passwords": [
+      "λαμπρου2026",
+      "lamprou2026",
+      "labrou2026"
+    ]
+  },
+  {
+    "id": "student_124",
+    "fullName": "Λυσάνδρου Ιωάννης",
+    "class": "Γ06",
+    "surname": "Λυσάνδρου",
+    "firstNames": "Ιωάννης",
+    "passwords": [
+      "λυσανδρου2026",
+      "lysandrou2026",
+      "lisandrou2026"
+    ]
+  },
+  {
+    "id": "student_125",
+    "fullName": "Μουντούρη Γεωργία",
+    "class": "Γ06",
+    "surname": "Μουντούρη",
+    "firstNames": "Γεωργία",
+    "passwords": [
+      "μουντουρη2026",
+      "mountouri2026",
+      "moudouri2026"
+    ]
+  },
+  {
+    "id": "student_126",
+    "fullName": "Νταρλαγιάννη Εύη",
+    "class": "Γ06",
+    "surname": "Νταρλαγιάννη",
+    "firstNames": "Εύη",
+    "passwords": [
+      "νταρλαγιαννη2026",
+      "ntarlagianni2026",
+      "darlagianni2026"
+    ]
+  },
+  {
+    "id": "student_127",
+    "fullName": "Παπασταύρου Χρήστος",
+    "class": "Γ06",
+    "surname": "Παπασταύρου",
+    "firstNames": "Χρήστος",
+    "passwords": [
+      "παπασταυρου2026",
+      "papastavrou2026",
+      "papastabrou2026"
+    ]
+  },
+  {
+    "id": "student_128",
+    "fullName": "Πιττάλης Χριστόφορος",
+    "class": "Γ06",
+    "surname": "Πιττάλης",
+    "firstNames": "Χριστόφορος",
+    "passwords": [
+      "πιτταλης2026",
+      "pittalis2026"
+    ]
+  },
+  {
+    "id": "student_129",
+    "fullName": "Ρουβήμ Φωτεινή",
+    "class": "Γ06",
+    "surname": "Ρουβήμ",
+    "firstNames": "Φωτεινή",
+    "passwords": [
+      "ρουβημ2026",
+      "rouvim2026",
+      "roubim2026"
+    ]
+  },
+  {
+    "id": "student_130",
+    "fullName": "Χατζηανδρέου Χρυσοβαλάντης",
+    "class": "Γ06",
+    "surname": "Χατζηανδρέου",
+    "firstNames": "Χρυσοβαλάντης",
+    "passwords": [
+      "χατζηανδρεου2026",
+      "chatziandreou2026"
+    ]
+  },
+  {
+    "id": "student_131",
+    "fullName": "Χατζηαντώνη Κωνσταντίνος",
+    "class": "Γ06",
+    "surname": "Χατζηαντώνη",
+    "firstNames": "Κωνσταντίνος",
+    "passwords": [
+      "χατζηαντωνη2026",
+      "chatziantoni2026",
+      "chatziadoni2026"
+    ]
+  },
+  {
+    "id": "student_132",
+    "fullName": "Χατζηγιάννη Όλγα",
+    "class": "Γ06",
+    "surname": "Χατζηγιάννη",
+    "firstNames": "Όλγα",
+    "passwords": [
+      "χατζηγιαννη2026",
+      "chatzigianni2026"
+    ]
+  },
+  {
+    "id": "student_133",
+    "fullName": "Αλ Τζιμπάουι Νάταλυ",
+    "class": "Γ07",
+    "surname": "Αλ Τζιμπάουι",
+    "firstNames": "Νάταλυ",
+    "passwords": [
+      "αλ τζιμπαουι2026",
+      "al tzimpaoui2026",
+      "al tzibaoui2026"
+    ]
+  },
+  {
+    "id": "student_134",
+    "fullName": "Βασιλείου Έρικα Ιωάννα",
+    "class": "Γ07",
+    "surname": "Βασιλείου",
+    "firstNames": "Έρικα Ιωάννα",
+    "passwords": [
+      "βασιλειου2026",
+      "vasileiou2026",
+      "basileiou2026"
+    ]
+  },
+  {
+    "id": "student_135",
+    "fullName": "Βασιλείου Πέτρος",
+    "class": "Γ07",
+    "surname": "Βασιλείου",
+    "firstNames": "Πέτρος",
+    "passwords": [
+      "βασιλειου2026",
+      "vasileiou2026",
+      "basileiou2026"
+    ]
+  },
+  {
+    "id": "student_136",
+    "fullName": "Γρηγορίου Μιχαηλίνα",
+    "class": "Γ07",
+    "surname": "Γρηγορίου",
+    "firstNames": "Μιχαηλίνα",
+    "passwords": [
+      "γρηγοριου2026",
+      "grigoriou2026"
+    ]
+  },
+  {
+    "id": "student_137",
+    "fullName": "Δαλίτης Αντώνης",
+    "class": "Γ07",
+    "surname": "Δαλίτης",
+    "firstNames": "Αντώνης",
+    "passwords": [
+      "δαλιτης2026",
+      "dalitis2026"
+    ]
+  },
+  {
+    "id": "student_138",
+    "fullName": "Δοντά Ευαγγελία",
+    "class": "Γ07",
+    "surname": "Δοντά",
+    "firstNames": "Ευαγγελία",
+    "passwords": [
+      "δοντα2026",
+      "donta2026",
+      "doda2026"
+    ]
+  },
+  {
+    "id": "student_139",
+    "fullName": "Ζυμαρά Παναγιώτης",
+    "class": "Γ07",
+    "surname": "Ζυμαρά",
+    "firstNames": "Παναγιώτης",
+    "passwords": [
+      "ζυμαρα2026",
+      "zymara2026",
+      "zimara2026"
+    ]
+  },
+  {
+    "id": "student_140",
+    "fullName": "Μαρκίδης Κωνσταντίνος",
+    "class": "Γ07",
+    "surname": "Μαρκίδης",
+    "firstNames": "Κωνσταντίνος",
+    "passwords": [
+      "μαρκιδης2026",
+      "markidis2026"
+    ]
+  },
+  {
+    "id": "student_141",
+    "fullName": "Μαυροβουνιώτης Παναγιώτης",
+    "class": "Γ07",
+    "surname": "Μαυροβουνιώτης",
+    "firstNames": "Παναγιώτης",
+    "passwords": [
+      "μαυροβουνιωτης2026",
+      "mavrovouniotis2026",
+      "mabrobouniotis2026"
+    ]
+  }
+]

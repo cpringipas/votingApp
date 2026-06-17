@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ψηφοφορία Αποφοίτησης 2026</title>
+  <!-- Google Fonts for beautiful typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Noto+Sans+Gothic&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Decorative background shapes -->
+  <div class="bg-shape shape-1"></div>
+  <div class="bg-shape shape-2"></div>
+  <div class="bg-shape shape-3"></div>
+
+  <!-- Main Container -->
+  <main class="app-container">
+    
+    <!-- HEADER -->
+    <header class="app-header">
+      <div class="header-logo">🎓</div>
+      <h1>Ψηφοφορία Αποφοίτησης <span class="gradient-text">2026</span></h1>
+      <p class="subtitle">Δώσε την ψήφο σου στους συμμαθητές σου!</p>
+    </header>
+
+    <!-- LOGIN SCREEN -->
+    <section id="login-screen" class="screen active">
+      <div class="card glass-card login-card">
+        <h2>Είσοδος στην πλατφόρμα</h2>
+        <p class="card-instruction">Επιλέξτε το τμήμα σας, το όνομά σας και εισαγάγετε το συνθηματικό σας για να ψηφίσετε ή να επεξεργαστείτε τις ψήφους σας.</p>
+        
+        <form id="login-form">
+          <div class="form-group">
+            <label for="class-select">Τμήμα</label>
+            <select id="class-select" required>
+              <option value="" disabled selected>Επιλέξτε Τμήμα...</option>
+              <option value="Γ01">Τμήμα Γ01</option>
+              <option value="Γ02">Τμήμα Γ02</option>
+              <option value="Γ03">Τμήμα Γ03</option>
+              <option value="Γ04">Τμήμα Γ04</option>
+              <option value="Γ05">Τμήμα Γ05</option>
+              <option value="Γ06">Τμήμα Γ06</option>
+              <option value="Γ07">Τμήμα Γ07</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="student-select">Ονοματεπώνυμο</label>
+            <select id="student-select" required disabled>
+              <option value="" disabled selected>Πρώτα επιλέξτε τμήμα...</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="password-input">Συνθηματικό</label>
+            <div class="password-wrapper">
+              <input type="password" id="password-input" placeholder="π.χ. savva2026" required autocomplete="current-password">
+              <button type="button" id="toggle-password" class="toggle-password-btn" aria-label="Εμφάνιση κωδικού">👁️</button>
+            </div>
+            <span class="field-hint">Το συνθηματικό σας είναι το <b>επίθετό σας με πεζά λατινικά ή ελληνικά</b> και το <b>2026</b> (π.χ. savva2026 ή σαββα2026).</span>
+          </div>
+
+          <button type="submit" id="login-submit-btn" class="btn btn-primary btn-block">
+            <span>Είσοδος</span>
+            <span class="btn-icon">➡️</span>
+          </button>
+        </form>
+        
+        <div id="login-error" class="alert alert-danger hidden"></div>
+      </div>
+    </section>
+
+    <!-- VOTING DASHBOARD SCREEN -->
+    <section id="dashboard-screen" class="screen">
+      
+      <!-- User profile bar -->
+      <div class="user-profile-bar glass-card">
+        <div class="user-info">
+          <span class="user-avatar">👤</span>
+          <div>
+            <h3 id="user-display-name">Όνομα Μαθητή</h3>
+            <p id="user-display-class">Τμήμα Γ00</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button id="logout-btn" class="btn btn-secondary btn-sm">Αποσύνδεση 🚪</button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="dashboard-tabs">
+        <button class="tab-btn active" data-tab="voting-tab">🗳️ Ψηφοφορία</button>
+        <button class="tab-btn" data-tab="results-tab" id="view-results-tab-btn">📊 Αποτελέσματα</button>
+      </nav>
+
+      <!-- TAB CONTENT: VOTING -->
+      <div id="voting-tab" class="tab-content active">
+        <div class="info-banner glass-card">
+          <h4>💡 Οδηγίες Ψηφοφορίας</h4>
+          <ul>
+            <li>Έχετε δικαίωμα για <strong>μία (1) ψήφο σε κάθε κατηγορία</strong>.</li>
+            <li>Μπορείτε να ψηφίσετε τον ίδιο συμμαθητή σας σε παραπάνω από μία κατηγορίες (ή και σε όλες!).</li>
+            <li>Δεν είναι υποχρεωτικό να ψηφίσετε σε όλες τις κατηγορίες για να αποθηκεύσετε.</li>
+            <li>Μπορείτε να συνδεθείτε ξανά αργότερα για να αλλάξετε ή να συμπληρώσετε τις ψήφους σας.</li>
+          </ul>
+        </div>
+
+        <!-- Search All Students box (for reference/lookup) -->
+        <div class="search-help-box glass-card">
+          <label for="global-search">🔍 Γρήγορη αναζήτηση συμμαθητή</label>
+          <input type="text" id="global-search" placeholder="Πληκτρολογήστε όνομα ή τμήμα για να δείτε αν υπάρχει...">
+          <div id="global-search-results" class="global-search-results-list hidden"></div>
+        </div>
+
+        <form id="voting-form">
+          <div class="categories-grid" id="categories-container">
+            <!-- Categories cards will be generated here by JS -->
+            <div class="loading-spinner">Φόρτωση κατηγοριών...</div>
+          </div>
+
+          <!-- Bottom Sticky Action Bar -->
+          <div class="sticky-footer glass-card">
+            <div class="footer-status" id="voting-status-msg">Έχετε επιλέξει 0 από 20 κατηγορίες</div>
+            <button type="submit" id="save-votes-btn" class="btn btn-success">
+              <span>Αποθήκευση Ψήφων</span>
+              <span class="btn-icon">💾</span>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- TAB CONTENT: RESULTS -->
+      <div id="results-tab" class="tab-content">
+        <div class="results-header glass-card">
+          <div class="results-stats">
+            <div>
+              <span class="stat-number" id="stats-total-voters">0</span>
+              <span class="stat-label">Μαθητές Ψήφισαν</span>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <span class="stat-number" id="stats-percent-participation">0%</span>
+              <span class="stat-label">Συμμετοχή</span>
+            </div>
+          </div>
+          <button id="admin-export-btn" class="btn btn-primary">
+            <span>Εξαγωγή σε Excel (Admin)</span>
+            <span class="btn-icon">📥</span>
+          </button>
+        </div>
+
+        <div class="results-grid" id="results-container">
+          <!-- Results list will be generated here by JS -->
+          <div class="loading-spinner">Υπολογισμός αποτελεσμάτων...</div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="toast hidden"></div>
+
+  <!-- JS Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
