@@ -556,11 +556,18 @@ select:disabled {
 }
 
 .category-card {
+  position: relative;
   border-top: 4px solid var(--border-color);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
+}
+
+/* Bring the card with the open combobox dropdown to the absolute front! */
+.category-card:has(.combobox-container.open) {
+  z-index: 50;
 }
 
 .category-card:hover {
